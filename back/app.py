@@ -132,7 +132,7 @@ def log_request(response):
 
 # Run Flask App
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=3000, debug=True)
 
 
 #################################################################################
